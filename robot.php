@@ -32,7 +32,7 @@ class Robot{
 $rob = new Robot("Merah", "Hitam", "Biru", 10);
 echo $rob->getWarnaBadan();
 echo "<br>";
+echo "<br>";
 $rob->changeWarnaBadan("Hijau", "Coklat", "Kuning", 20);
 echo $rob->getWarnaBadan();
 
-?>
